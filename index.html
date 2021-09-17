@@ -4,9 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript30-00</title>
+    <title>JavaScript30-01</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
+    <div class="keys">
+        <div data-key="81" class="key">
+            <kbd>Q</kbd>
+            <span class="sound">Boom</span>
+        </div>
+        <div data-key="87" class="key">
+            <kbd>W</kbd>
+            <span class="sound">Clap</span>
+        </div>
+        <div data-key="69" class="key">
+            <kbd>E</kbd>
+            <span class="sound">Hihat</span>
+        </div>
+        <div data-key="82" class="key">
+            <kbd>R</kbd>
+            <span class="sound">Kick</span>
+        </div>
+        <div data-key="84" class="key">
+            <kbd>T</kbd>
+            <span class="sound">Openhat</span>
+        </div>
+        <div data-key="65" class="key">
+            <kbd>A</kbd>
+            <span class="sound">Ride</span>
+        </div>
+        <div data-key="83" class="key">
+            <kbd>S</kbd>
+            <span class="sound">Snare</span>
+        </div>
+        <div data-key="68" class="key">
+            <kbd>D</kbd>
+            <span class="sound">Tink</span>
+        </div>
+        <div data-key="70" class="key">
+            <kbd>F</kbd>
+            <span class="sound">Tom</span>
+        </div>
+        <button onclick="btnRec()">REC</button>
+        <button onclick="playRecord()">REC</button>
+    </div>
+
+    <audio data-key="81" src="./sound/boom.wav"></audio>
+    <audio data-key="87" src="./sound/clap.wav"></audio>
+    <audio data-key="69" src="./sound/hihat.wav"></audio>
+    <audio data-key="82" src="./sound/kick.wav"></audio>
+    <audio data-key="84" src="./sound/openhat.wav"></audio>
+    <audio data-key="65" src="./sound/ride.wav"></audio>
+    <audio data-key="83" src="./sound/snare.wav"></audio>
+    <audio data-key="68" src="./sound/tink.wav"></audio>
+    <audio data-key="70" src="./sound/tom.wav"></audio>
+
+
+    <script src="./js/main.js"></script>
 </body>
 </html>
